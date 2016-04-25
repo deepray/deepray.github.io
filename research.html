@@ -29,6 +29,7 @@
                         <!--<li><a href="about.html"> Personal</a></li>-->
                         <li><a href="cv.html"> CV</a></li>
                         <li class="active"><a href="#"> Research</a></li>
+                        <li><a href="publications.html"> Publications</a></li>
                         <li><a href="teaching.html"> Teaching</a></li>
                         <li><a href="contact.html"> Contact</a></li>
                     </ul>
@@ -47,119 +48,25 @@
             <div class="row">
                 <div class="col-md-7">
                     <ul>
-                        <li><b>Conservation laws</b>
-                            <p class="text-justify">I primarily study sytems of conservation laws such as the Euler equations, and look at various properties like entropy stability, positivity and preservation of analytical properties. I also study the Navier-Stokes system with the aim of designing finite volume schemes using the symmetrization properties.</li>
-                        <li><b>Computational fluid dynamics (CFD)</b>
-                            <p class="text-justify">I am also involved in the numerical implementation of schemes developed for fluid flows. I code using C++, Fortran, MATLAB and Python, with the aid of visual tools like Paraview, Tecplot and Visit.</li>
+                        <li><b>Conservation laws and compressible flows</b>
+                            <p class="text-justify">I consider systems of conservation laws, 
+                            in particular the compressible Euler equations, and study at various essential 
+                            properties like entropy stability, positivity and preservation of analytical properties. 
+                            I have developed and implemented a parallelized finite volume solver for the Euler equations on unstructured meshes, 
+                            which is provably entropy stable. These techniques have been extended to construct 
+                            a solver for Navier-Stokes, which satisfies a discrete global entropy estimate with wall boundary conditions. 
+                        </li>
+                        <li><b>Uncertainty quantification</b>
+                            <p class="text-justify">Coupled with Monte-Carlo techniques, I have used the finite volume solver for 
+                            uncertainty quanitifciation of the Navier-Stokes equation. The primary focus is to
+                            study the measure valued solutions of compressible flows,
+                            in the limit of increasing Reynolds number.</li>
                         <li><b>Optimal control theory</b>
-                            <p class="text-justify">I am interested in the control and stabilizabilty of systems by considering the linearized model. This includes the evaluation of feedback control and solving estimation problems with partial observations in the presence of noise.
+                            <p class="text-justify">I am also interested in the control and stabilizabilty of systems by considering the linearized model.
+                             This includes the evaluation of feedback control and solving estimation problems with partial observations in the presence of noise.
                         </li>
                     </ul>
 
-                </div>
-                
-            </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Publications and reports</h3>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-12">
-                    <h4>Submitted for publication</h4>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-7">
-                    <ul>
-                        <li>Convergence of fully discrete schemes for diffusive-dispersive conservation laws with discontinuous flux (U. Koley, R, Dutta and D. Ray); <i>Accepted for publication in ESAIM: Mathematical Modelling and Numerical Analysis</i> (2015). <a href="http://arxiv.org/abs/1505.00928">[arXiv]</a> </li>
-                        <li>Entropy stable scheme on two-dimensional unstructured grids for Euler equations (D. Ray, P. Chandrashekar, U. Fjordholm and S. Mishra); <i>Accepted for publication in Communications in Computational Physics </i> (2015). <a href="http://www.sam.math.ethz.ch/sam_reports/index.php?id=2014-28"> [report] </a> </li>
-                    </ul>
-                    
-                </div>
-                
-            </div>
-            
-            <br>
-            <div class="row">
-                <div class="col-md-12">
-                    <h4>Published in journals</h4>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-7">
-                    <ul>
-                        <li>A sign preserving WENO reconstruction method (U. S. Fjordholm, D. Ray); <i> Springer Journal of Scientific Computing</i> (2015). </li> </i> <a href="http://link.springer.com/article/10.1007/s10915-015-0128-y">[article]</a> <a href="http://arxiv.org/abs/1510.09038">[arXiv]</a></li>
-                        <li>Entropy stable schemes for compressible Euler equations (P. Chandrashekar and D. Ray); <i> International Journal of Numerical Analysis and Modeling (Series B), 2013.</i> <a href="http://www.math.ualberta.ca/ijnamb/Volume-4-2013/No-4-13/2013-04-02.pdf">[article]</a></li>
-                    </ul>
-                    
-                </div>
-                
-            </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Conferences and workshops</h3>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-7">
-                    <ul>
-                        <li>International Conference on Industrial and Applied Mathematics, Beijing, China <i>(10th-14th August, 2015)</i> </li>
-                        <li>Conference on Computational PDEs, Finite Element Meet, TIFR-CAM <i>(18th - 20th December, 2014)</i></li>
-                        <li>The 5th International Conference on Scientific Computing and Partial Differential Equations, HKBU, Hong Kong <i>(8th - 12th December, 2014)</i> </li>
-                        <li>Workshop on the Analysis and Numerical Approximation of PDEs, ETH Zurich <i>(8th - 10th September, 2014)</i></li>
-                        <li>CIME-CIRM Workshop on Mathematical Models and Methods for Living Systems, Levico Terme (Trento) <i>(1st - 5th September, 2014)</i></li>
-                        <li>Swiss Numerics Day 2014, University of Zurich <i>(25th April, 2014)</i></li>
-                        <li>Workshop on Optimization with PDE constraints, TIFR (CAM) <i>(25th November - 6th December, 2013)</i></li>
-                        <li>Compact course on Discontinuous Galerkin method for time - dependent convection - dominant PDEs, by Prof. Chi-Wang Shu , TIFR (CAM)<i>(4th-5th July, 2013)</i></li>
-                        <li>International Conference on Conservation Laws and Applications, TIFR-CAM <i>( 1st - 3rd July, 2013 )</i></li>
-                        <li>CIMPA summer preschool and research school on Current Trends in Computational Methods for PDEs, IISC, Bangalore   <i>(24th June - 19 July, 2013)</i></li>
-                        <li>Workshop on Theoretical and Computational Aspects of Nonlinear Waves, NPDE-TCA, IIT-Bombay <i>(27th - 31th May, 2013)</i></li>
-                        <li>Advanced Workshop on Non-Standard Finite Element Methods, NPDE-TCA, IIT-Bombay <i>(11th - 15th February, 2013)</i></li>
-                        <li>14th Annual CFD Symposium, CFD Division - Aeronautical Society of India <i>(10th - 11th August, 2012)</i>: Presented a paper jointly with P. Chandrashekar, titled: Kinetic energy preserving and entropy stable finite volume schemes for compressible Euler and Navier-Stokes equations.</li>
-                        <li>Heterogeneous Parallel Programming, University of Illinois at Urbana - Champaign's Online Coursera offering
-                            <i>(28th November, 2012 - 28th January, 2013)</i></li>
-                        <li>Instructional Workshop on FEM, TIFR (CAM)<i>(2nd - 13th July, 2012)</i></li>
-                        <li>Data Assimilation Research Program, TIFR (CAM)<i>(4th - 23rd July, 2011</i></li>
-                        <li>Visiting Students Research Programme, TIFR Mumbai <i>(15th June, 2009 - 10th July, 2009)</i></li>
-                        
-                    </ul>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Posters and talks</h3>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-7">
-                    <ul>
-                        <li>Talk on <i>A sign preserving WENO reconstruction</i>, at the Department of Mathematics, University of W&uuml;rzburg <i>(23rd November, 2015)</i></li>
-                        <li>Talk on <i>A sign preserving WENO reconstruction</i>, at the International Conference on Industrial and Applied Mathematics, Beijing, China <i>(10th-14th August, 2015)</i> </li>
-                        <li>Talk on <i>A sign preserving WENO reconstruction</i>, at the NARC meeting, Department of Applied Mathematics, University of Washington, Seattle <i>(11th June, 2015)</i> </li>
-                        <li>Talk on <i>Entropy stable schemes for compressible flows on unstructured meshes</i>, at the Conference on Computational PDEs, Finite Element Meet, TIFR-CAM <i>(20th December, 2014)</i> </li>
-                        <li>Talk on <i>Entropy stable schemes for compressible flows on unstructured meshes</i>, at SCPDE-14, HKBU, Hong Kong <i>(9th November, 2014)</i> </li>
-                        <li>Poster presented at ANAPDE-2014: <a href="ANAPDE14_Poster.pdf"><i>Entropy stable schemes for compressible flows on unstructured meshes</i> </a></li>
-                        <li>Talk on <i>Entropy stable schemes for compressible flows</i>, at the Department of Mathematics, University of W&uuml;rzburg <i>(9th July, 2014)</i></li>
-                        
-                    </ul>
-                    
                 </div>
                 
             </div>
