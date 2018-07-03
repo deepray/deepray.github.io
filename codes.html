@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Deep Ray's Homepage</title>
+        <title>Deep Ray's Homepage - Codes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Bootstrap -->
             <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <meta charset="utf-8" />
     </head>
     
     <body>
@@ -24,12 +25,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav pull-right">
-                        <li class="active"><a href="#"> Home</a></li>
+                        <li><a href="index.html"> Home</a></li>
                         <!--<li><a href="about.html"> Personal</a></li>-->
-                        <li><a href="cv.html"> CV</a></li> 
+                        <li><a href="cv.html"> CV</a></li>
                         <li><a href="research.html"> Research</a></li>
                         <li><a href="publications.html"> Publications</a></li>
-                        <li><a href="codes.html"> Codes</a></li>
+                        <li class="active"><a href="#"> Codes</a></li>
                         <li><a href="teaching.html"> Teaching</a></li>
                         <li><a href="contact.html"> Contact</a></li>
                     </ul>
@@ -40,37 +41,50 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <center><img class="img-thumbnail" alt="Thumbnail Image" src="images/selfpic.jpg"></center>
-                    
-                    <center><hr><b>Postdoctoral Assistant</b><br>
-                    Computational Mathematics and Simulation Science<br>
-                    &Eacute;cole Polytechnique F&eacute;d&eacute;rale de Lausanne<hr><center>
-                    
-                </div>
-                <div class="col-md-6">
-                    <br>
-                    <br>
-                    <br>
-                    <p class="text-justify">Hi! I am a postdoctoral researcher in <a href="http://mcss.epfl.ch/Hesthaven">Professor Jan S. Hesthaven's</a> 
-                      group at EPFL, Switzerland.
-                      My research involves the study of numerical techniques for partial differential equations. In particular,
-                      I study systems of conservation laws with the objective of preserving important physical properties,
-                      such as entropy stability and energy, at the discrete level. My recent research interests involve the use of artificial neural 
-                      networks to resolve bottlenecks in existing methods.
-                    </p>
+                <div class="col-md-12">
+                    <h3>Codes and scripts</h3>
+                    <p>Here you will find some of the codes I have been working on. If you have issues accessing/using them, 
+                    please send me an e-mail. </p>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
+            
             <div class="row">
                 <div class="col-md-12">
-                   <center><font face="lucida" size="5" color="GoldenRod">&ldquo;In theory, there is no difference between theory and practice. But in practice, there is.&rdquo; </font></center>
-                   <center><font size="2">Anonymous </font></center>
+                    <h4>DG codes</h4>
                 </div>
             </div>
+  
+            <div class="row">
+                <div class="col-md-7">
+                    <ul>
+                        <li><b><a href="https://bitbucket/deepray/dgann">DGANN</a>:</b> A MATLAB based DG-solver for conservation laws, which is capable of using an artificial neural network to detect troubled-cells.
+                        </li>
+                    </ul>
+
+                </div>
+                
+            </div>
+            
+            <!-- 
+<div class="row">
+                <div class="col-md-12">
+                    <h4>Trained Neural Networks</h4>
+                </div>
+            </div>
+  
+            <div class="row">
+                <div class="col-md-7">
+                    <ul>
+                        <li><b><a href="https://bitbucket/deepray/dgann">Troubled-cell indicator</a>:</b> List of neural networks trained to detect troubled-cells for DG schemes.
+                        </li>
+                    </ul>
+
+                </div>
+                
+            </div>
+ -->
         </div>
+        
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
