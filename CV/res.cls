@@ -275,7 +275,7 @@
 % unless you really understand all of this but it is not
 % hard.  Either way, it can only be executed once
 %
-\def\sectionfont{\bf}
+\def\sectionfont{}
 \newdimen\sectionwidth
 \newskip\sectionskip
 \newdimen\resumewidth
@@ -358,6 +358,7 @@
       \textwidth=\sectionwidth
       \raggedright     % you don't want this filled out to the right margin
       \sectionfont
+      \scshape
       #1\vss	       % Go into horizontal mode; do the paragraph;
 		       % go into vertical mode; add some negative glue 
 		       % to give a box of 0pt height and depth

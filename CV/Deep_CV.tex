@@ -17,6 +17,9 @@
 
 %\renewcommand{\familydefault}{\sfdefault}
 \usepackage{times}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*}
+
 
 \begin{document} 
 
@@ -27,7 +30,6 @@
 \vspace{-1cm}
 %\moveleft.5\hoffset\centerline{\large\bf Curriculum Vitae}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip 
-
  
 \begin{resume} 
  
@@ -39,31 +41,34 @@
 
 \vspace{-0.5cm}
 
-\section{Current \\ Affiliation}
-Department of Computational and Applied Mathematics (CAAM)  \\ Rice University \\ 6100 Main St., Houston, TX 77005 \\
+\section{Current Affiliation}
+Computational and Applied Mathematics (CAAM)  \\ Rice University \\ 6100 Main St., Houston, TX 77005 \\
 E-mail: deep.ray@rice.edu\\
 Webpage: deepray.github.io
+
+\section{Interests}
+Numerical methods for conservation laws, machine learning, uncertainty quantification.
  
 \section{Employment}
 {\it Postdoctoral researcher}, CAAM, Rice University
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item 
 July, 2019 to present
-\item Involved in the development high-resolution numerical methods to simulate multiphase flows through real rock structures at the pore scale.  
+\item Developing high-resolution numerical methods to simulate multiphase flows through real rock structures at the pore scale.  
 \end{itemize}
 
 {\it Postdoctoral researcher}, MCSS, EPFL
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item 
-July, 2017 to June 2019
-\item Involved in the development of machine learning strategies to resolve existing bottle-necks in numerical methods.  
+July, 2017 to June, 2019
+\item Developed machine learning strategies to resolve bottle-necks in traditional numerical methods.  
 \end{itemize}
 
 \section{Education}
 {\it Ph.D. in Mathematics}, Tata Institute of Fundamental Research (TIFR-CAM)
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item September, 2013 to May, 2017
- \item Advisors: Dr. Praveen Chandrashekar (TIFR-CAM) and Prof. Siddhartha Mishra (ETH Z\"{u}rich and adjunct faculty TIFR-CAM)
+ \item Advisors: Praveen Chandrashekar (TIFR-CAM) and Siddhartha Mishra (ETH Z\"{u}rich and adjunct faculty TIFR-CAM)
   \item Developed and analysed a high-order entropy stable parallelized finite volume solver for the compressible Euler and Navier-Stokes equations on unstructured meshes. 
   \item \textbf{Awarded} the Harish Chandra Memorial Award for the best Ph.D. thesis.
       
@@ -72,8 +77,8 @@ July, 2017 to June 2019
  {\it M.Phil in Mathematics}, TIFR-CAM
  \begin{itemize} \itemsep -2pt  % reduce space between items
  \item July, 2012 to September, 2013
- \item Advisor: Dr. Praveen Chandrashekar
- \item Worked on numerical schemes for the Euler and Navier-Stokes Equations that preserve entropy, kinetic-energy and vorticity, and performed multi-dimensional simulations for the same.
+ \item Advisor: Praveen Chandrashekar
+ \item Analysed numerical schemes for the Euler and Navier-Stokes Equations that preserve entropy, kinetic-energy and vorticity, and performed multi-dimensional simulations for the same.
  \end{itemize}
 
  {\it M.Sc in Mathematics}, TIFR-CAM
@@ -100,35 +105,35 @@ July, 2017 to June 2019
 % \item Score: 89.20 $\%$
 % \end{itemize}  
 
-\section{Research \\ Visits}
+\section{Research Visits}
  {\it Visiting Research Student}, Seminar for Applied Mathematics, ETH Z\"{u}rich
  \begin{itemize} \itemsep -2pt  % reduce space between items
- \item May to October, 2014 and August 2015 to May 2016            
- \item Visited Prof. Siddhartha Mishra to work with him and his research group.
+ \item May to October, 2014 and August, 2015 to May, 2016            
+ \item Visited Siddhartha Mishra to work with him and his research group.
  \end{itemize}
  
  \newpage
 
  \section{Publications}
 
-\textbf{Publication in Journals}                
+\textbf{Journals}                
             \begin{itemize}            
             
             \item {\it Non-intrusive reduced order modelling of unsteady flows using artificial neural networks with application to a combustion problem.} \\
-              Q. Wang, J. S. Hesthaven and D.Ray.\\
-              Journal of Computational Physics, Vol. 384, pp 289-307 (2019).
+              Q. Wang, J. S. Hesthaven, D. Ray.\\
+              Journal of Computational Physics, Vol. 384, pp. 289-307 (2019).
             
            \item {\it An artificial neural network as a troubled-cell indicator.}\\
-            D. Ray and J. S. Hesthaven.\\
-            Journal of Computational Physics, Vol. 367 (15), pp 166-191 (2018).
+            D. Ray, J. S. Hesthaven.\\
+            Journal of Computational Physics, Vol. 367 (15), pp. 166-191 (2018).
 
             \item {\it An entropy stable finite volume scheme for the two dimensional Navier-Stokes equations on triangular grids.}\\
-            D. Ray and P. Chandrashekar.\\
+            D. Ray, P. Chandrashekar.\\
              Applied Mathematics and Computation, Vol. 314, pp. 257-286 (2017).
 
              \item {\it Convergence of fully discrete schemes for diffusive-dispersive conservation laws with discontinuous flux.}\\
-              U. Koley, R, Dutta and D. Ray. \\
-              ESAIM: Mathematical Modelling and Numerical Analysis, Vol. 50(5), pp.1289-1331, (2016).
+              U. Koley, R, Dutta, D. Ray. \\
+              ESAIM: Mathematical Modelling and Numerical Analysis, Vol. 50(5), pp. 1289-1331, (2016).
               
               \item {\it Entropy stable schemes on two-dimensional unstructured grids for Euler equations.}\\
               D. Ray, P. Chandrashekar, U. S. Fjordholm, S. Mishra. \\
@@ -139,40 +144,40 @@ July, 2017 to June 2019
               Journal of Scientific Computing, Vol. 68(1), pp. 42-63, (2015).
              
               \item {\it Entropy stable schemes for compressible Euler equations.}\\
-              D. Ray and P. Chandrashekar.\\
-              Int. J. Numer. Anal. Model. Ser. B, no. 4, p. 335-352 (2013).
+              D. Ray, P. Chandrashekar.\\
+              Int. J. Numer. Anal. Model. Ser. B, no. 4, pp. 335-352 (2013).
              \end{itemize}
 
 
 
-\textbf{Publication in Conference Proceedings}                
+\textbf{Conference Proceedings}                
             \begin{itemize}           
               \item {\it A Third-Order Entropy Stable Scheme for the Compressible Euler Equations.}\\
               D. Ray.\\
-              Theory, Numerics and Applications of Hyperbolic Problems II. HYP 2016. Springer Proceedings in Mathematics and Statistics, vol 237., 2018
+              Theory, Numerics and Applications of Hyperbolic Problems II. HYP 2016. Springer Proceedings in Mathematics and Statistics, vol 237, 2018
 
               \item {\it Kinetic energy preserving and entropy stable finite volume schemes for compressible Euler and Navier-Stokes equations.}\\
-              D. Ray and P. Chandrashekar.\\
+              D. Ray, P. Chandrashekar.\\
               14th Annual CFD Symposium - Aeronautical Society of India, IISc, Bangalore, 10-11 August, 2012.
              \end{itemize}
 
-\textbf{Submitted for publication}                
+\textbf{Submitted}                
             \begin{itemize}           
+              
+               \item {\it Detecting troubled-cells on two-dimensional unstructured grids using a neural network}. (to appear in Journal of Computational Physics, Vol. 384 , 2019) \\
+               D. Ray, J. S. Hesthaven.
               
               \item {\it Constraint-Aware Neural Networks for Riemann Problems}. (submitted, 2019) \\
                J. Magiera, D. Ray, J. S. Hesthaven, C. Rohde.
                
                \item {\it Deep learning observables in computational fluid dynamics}. (submitted, 2019) \\
-               K. O. Lye, S. Mishra and D. Ray.
+               K. O. Lye, S. Mishra, D. Ray.
                
                \item {\it Controlling oscillations in high-order Discontinuous Galerkin schemes using artificial viscosity tuned by neural networks}. (submitted, 2019) \\
-               N. Discacciati, J. S. Hesthaven and D. Ray.
-              
-              \item {\it Detecting troubled-cells on two-dimensional unstructured grids using a neural network}. (submitted, 2018) \\
-               D. Ray and J. S. Hesthaven.
+               N. Discacciati, J. S. Hesthaven, D. Ray.
            
               \item {\it Multi-level Monte Carlo finite difference methods for fractional conservation laws with random data.} (submitted, 2018)\\
-              U. Koley, D. Ray and T. Sarkar.
+              U. Koley, D. Ray,T. Sarkar.
 
              \end{itemize}
 
@@ -280,6 +285,7 @@ July, 2017 to June 2019
 \section{Mentoring Experience} 
                
                   \textbf{Master thesis co-supervision:}
+                  \vspace{-0.3cm}
                       \begin{table}[!h]
                        \begin{tabular}{llll}
                        Niccol\`{o} Discacciati & EPFL/Politecnico di Milano & 2018 & Curr: PhD, EPFL \\
@@ -287,13 +293,16 @@ July, 2017 to June 2019
                        Lukas Schwander    & ETH                                         &  2019 &  Completed             
                         \end{tabular}
                         \end{table}
-                        
+                     
+                     \vspace{-0.5cm}   
                      \textbf{Bachelors thesis co-supervision:}
+                     \vspace{-0.3cm}
                       \begin{table}[!h]
                        \begin{tabular}{llll}
-                       Moritz Reinders \ \ \ &  ETH                  \hspace{3.55cm}                       &  2019 &  Ongoing             
+                       Moritz Reinders \ \ \ \ \ &  ETH                  \hspace{3.2cm}                       &  2019 &  Ongoing             
                         \end{tabular}
                         \end{table}   
+                        \vspace{-0.5cm}
                                     
 
 \section{Service} 
@@ -306,13 +315,13 @@ July, 2017 to June 2019
                \item Founding member of {\it Caucus} at Hindu College (2009-2010). The society served as a forum for discussing various burning national and global issues, and training students for the Model United Nations Co	 nferences.
                \end{itemize}                    
                
-\section{Review \\for \\Journals}  
-              Journal of Computational Physics (JCP), SIAM Journal on Numerical Analysis (SINUM), SIAM Journal on Scientific Computing (SISC), Communications in Computational Physics (CICP), Journal of Scientific Computing (JOMP), Proceedings of the Royal Society A (RSPA), Computers \& Fluids, BIT Numerical Mathematics (BITN), Indian Journal of Pure and Applied Mathematics (IJPA).
+\section{Review for Journals}  
+              Journal of Computational Physics, SIAM Journal on Numerical Analysis, SIAM Journal on Scientific Computing, Communications in Computational Physics, Journal of Scientific Computing, Proceedings of the Royal Society A, Computers \& Fluids, BIT Numerical Mathematics, Indian Journal of Pure and Applied Mathematics.
                
                
-\section{Computing \\ Skills}
-   \begin{tabular}{l p{3in}}
-    {\bf Languages:} & C++, Fortran, Python \\
+\section{Computing \\Skills}
+   \noindent\begin{tabular}{@{}ll}
+    {\bf Languages:} & C++, Python, Fortran \\
 
     {\bf Programming Software:} &  MATLAB \\
     
