@@ -5,40 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- Bootstrap -->
             <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+            <link href="css/mystyle.css" rel="stylesheet">
             <link rel="stylesheet" href="academicons-1.8.6/css/academicons.min.css"/>
         <script src="https://kit.fontawesome.com/60848b8342.js" crossorigin="anonymous"></script>   
     </head>
 
-    <style>
+    <!-- <style>
         /* Modify the background color */
          
         .navbar {
-            background-color: #990000;
+            background-color: #b8b8b8;
         }
         .navbar .navbar-brand,
         .navbar .navbar-text {
-            color: #FFC72C;
+            color: #3d3d3d;
             font-size: 20px;
             font-weight: bold;
         }
 
         /*.navbar .navbar-brand:hover { color:#FFC72C; } */
-        .navbar .navbar-brand { 
-        color: #FFC72C !important; 
+        .navbar { 
+        color: #3d3d3d !important; 
         }
 
-        .nav-item.active{
-        color: #FFC72C;
+        .navbar-nav .nav-item.active .nav-link{
+        color: #ffffff;
         background-color: #757373;    
         }
 
         .navbar-nav .nav-item .nav-link {
-        color: white;
+        color: #3d3d3d;
         }
 
-        .navbar-nav .nav-item.active .nav-link,
         .navbar-nav .nav-item:hover .nav-link {
-            color: #FFC72C;
+            color: #bf0404;
         }
 
         .navbar {
@@ -47,17 +47,20 @@
         }
 
         .custom-toggler .navbar-toggler-icon {
-          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,199,44, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61, 61, 61, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
         }
 
         .custom-toggler.navbar-toggler {
-          border-color: #FFC72C;
+          border-color: #3d3d3d;
         } 
 
+        .col-md-3-5 { width: 29,16667%; }
 
-    </style>
+
+
+    </style> -->
     
-    <body style="background-color: #FCF0D8">
+    <body>
         <!-- 
 <nav class="navbar-wrapper navbar-default navbar-static-top" role="navigation">
             <div class="container">
@@ -90,7 +93,7 @@
  -->
         <nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-between">
         <div class="container">
-            <a class="navbar-brand" href="#" mb-0 h1>Deep Ray</a>
+            <a class="navbar-brand" mb-0 h1>Deep Ray</a>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
            		 <span class="navbar-toggler-icon"></span>
             </button>
@@ -100,9 +103,9 @@
        		 <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
              </li>
-             <li class="nav-item">
+             <!-- <li class="nav-item">
                 <a class="nav-link" href="cv.html">CV</a>
-             </li>
+             </li> -->
              <li class="nav-item">
                 <a class="nav-link" href="publications.html">Publications</a>
              </li>
@@ -129,39 +132,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <center><img class="img-thumbnail" alt="Thumbnail Image" src="images/Deep_pic.jpg"></center>
+                    <center><img class="img-thumbnail" width=260px alt="Thumbnail Image" src="images/Deep_pic.jpg"></center>
                     
-                    <center><hr><b>Postdoctoral Research Associate</b><br>
-                    Aerospace and Mechanical Engineering<br>
-                    Viterbi School of Engineering<br>
-                    University of Southern California<hr><br><center>
-                    <!-- <b>Office:</b> Room 2002, Duncan Hall <br><br> -->
-					<a href = "mailto:deepray@usc.edu" style="color:#f2b700"><i class="fas fa-envelope fa-2x"></i></a> &ensp;    
+                    <center>
+                        <hr class="custom1"><b>Assistant Professor</b><br>
+                    Department of Mathematics<br>
+                    University of Maryland, College Park
+                    <hr class="custom1">
+                    <!-- </center>
+                    Office (MATH): **** William E. Kirwan Hall<br>
+                    Office (IPST): ****                       <br>  
+                    <hr class="custom1"> -->
+                    <center>
+					<a href = "mailto:deepray@umd.edu" style="color:#f2b700"><i class="fas fa-envelope fa-2x"></i></a> &ensp;    
 					<a href = "https://www.linkedin.com/in/deep-ray" style="color:#2867B2" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a> &ensp;
 					<a href = "https://www.researchgate.net/profile/Deep_Ray3" style="color:#39B2A7" target="_blank" rel="noopener noreferrer"><i class="fab fa-researchgate fa-2x"></i></a> &ensp;
 					<a href = "https://scholar.google.com/citations?user=7wZjDQ4AAAAJ&hl=en&oi=sra" style="color:blue" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar ai-2x"></i></a> &ensp;
-					<a href = "https://orcid.org/0000-0002-8460-9862" style="color:#78B239" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid fa-2x"></i></a>
+					<a href = "https://orcid.org/0000-0002-8460-9862" style="color:#78B239" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid fa-2x"></i></a><br><br>
+
+                    
+                    <a href="Deep_Ray_CV.pdf" class="myButton" style="color:#ffffff;" target="_blank" rel="noopener noreferrer">Download CV</a>
+
+                    </center>
 
                     
                     
                 </div>
+
+
+
                 <div class="col-md-8">
        
-                    <p class="text-justify">Hi! I am a postdoctoral researcher in the group headed by <a href="https://viterbi.usc.edu/directory/faculty/Oberai/Assad" target="_blank" rel="noopener noreferrer">Assad A. Oberai</a> 
-                      at the <a href="https://viterbischool.usc.edu/" target="_blank" rel="noopener noreferrer">Viterbi School of Engineering</a>, University of Southern California. My research involves the study of numerical techniques for partial differential equations. A few key topics
-                      are listed below.
+                    <p class="text-justify">I am an Assistant Professor of Mathematics holding a joint position at the <a href="https://www-math.umd.edu" target="_blank" rel="noopener noreferrer"> Department of Mathematics</a> and the <a href="https://ipst.umd.edu/" target="_blank" rel="noopener noreferrer">Institute for Physical Science and Technology</a>. My research lies at the interface of conventional numerical analysis and machine learning. A few key topics of interest are listed below.
                       <ul>
                         
-                      	<li><b>Scientific machine learning:</b>
+                        <li><b>Scientific machine learning:</b>
                             <p class="text-justify">I use deep learning tools to overcome computational bottlenecks in existing numerical
                             methods. This is particularly relevant for techniques that require the specification of problem-dependent 
-                            parameters, or contain computationally expensive sub-algorithms. Some areas of application I work on include
+                            parameters, or ailed by computationally expensive sub-algorithms. Some areas of application I work on include
                             <ul>
                             <li> Shock-capturing algorithms for conservation laws.</li>
                             <li> Reduced order modelling for flow problems.</li>
                             <li> Acceleration of Monte-Carlo algorithms using deep surrogates.</li>
                             <li> PDE constrained optimization.</li> 
-                            <li> Physics-based deep Bayesian inference.</li>    
+                            <li> Physics-based deep Bayesian inference.</li> 
+                            <li> Operator learning for surrogate modelling. </li>   
                             </ul>
                             <br>
 
@@ -169,10 +184,10 @@
 
 
                         <li><b>Hyperbolic conservation laws: </b>
-							<p class="text-justify">I develop numerical methods for conservation laws, which satisfy important 
-							physical model properties, such as entropy stabilty and kinetic energy preservation. In particular, I have developed high-order
-							entropy-stable finite volume schemes for the compressible Euler equations, and extensions accomodate the viscous terms of the Navier-Stokes model.
-							 
+                            <p class="text-justify">I develop numerical methods for conservation laws, which satisfy important 
+                            physical model properties, such as entropy stability and kinetic energy preservation. In particular, I have developed high-order
+                            entropy-stable finite volume schemes for the compressible Euler equations, and extensions accommodate the viscous terms of the Navier-Stokes model.
+                             
 
                         </li>
                         
@@ -186,9 +201,29 @@
                       </ul>
                     </p>
                 </div>
+                
             </div>
+            
+            <hr class="custom1">
+            <div class="row">
+                
+                <div class="col-md-12">
+                    <h4> Announcements </h4>
+                    <ul>
+                        <li>01/03/2022: Lecture notes on <a href="https://arxiv.org/abs/2301.00942" target="_blank" rel="noopener noreferrer"> Deep Learning and Computational Physics</a> now available.</li> 
+                    </ul>    
+                    <br><br><br>
+                </div>
+            </div>
+
         </div>
-        <div class="container-fluid">
+
+        
+
+        
+
+
+        <!-- <div class="container-fluid">
             <div class="row" style="background-image: linear-gradient(to right, #757373, #990000 , #757373);">
                 <div class="col-md-12">
                    <center><font face="lucida" size="5" color=#FFC72C>&ldquo;In theory, there is no difference between theory and practice. But in practice, there is.&rdquo; </font></center>
@@ -196,7 +231,7 @@
                    <br>
                 </div>
             </div>
-        </div>
+        </div> -->
         
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
